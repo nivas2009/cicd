@@ -11,6 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="a7f2cd5a-9959-441b-8b53-05e09600a402" config-ref="HTTP_Listener_config" path="cicd"/>
 		<logger level="INFO" doc:name="Logger" doc:id="2d34d6c4-6de4-498f-9015-5d3e86a221f5" message="#[payload]"/>
 		<set-payload value="set the CICD payload" doc:name="Set Payload" doc:id="7017d45b-7957-4966-9566-de65148ff324" />
-		<logger level="INFO" doc:name="Logger" doc:id="15ac5aa4-3f96-40fb-acae-6c0d2a199f18" message="Testing Purpose"/>
+		<logger level="INFO" doc:name="Logger" doc:id="15ac5aa4-3f96-40fb-acae-6c0d2a199f18" message="Testing Purpose...."/>
 	</flow>
 </mule>
