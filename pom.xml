@@ -44,6 +44,13 @@
             <version>1.1.5</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+        
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
+        </dependency>
+        
 	</dependencies>
 
 	<repositories>
@@ -53,6 +60,9 @@
             <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
             <layout>default</layout>
         </repository>
+        
+        
+        
         <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
